@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int i=11,sum=0,tens;
+	while(i<=99)
+	{
+		tens=i/10;
+		if(i%2!=0 && tens==7)
+		{
+			sum=sum+i;
+		}
+		i=i+1;
+	}
+	printf("%d",sum);
+}
